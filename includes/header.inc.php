@@ -5,12 +5,11 @@
 
 
     <ul class="nav navbar-nav">
-      
-      <li><a href="index.php">Home </a></li>
-      <li><a href="#">Hotdogs </a></li>
-      <li><a href="#">Sodavand</a></li>
-      <li><a href="#">Kontakt</a></li>
-      <li><a href="#">Om os</a></li>
-     </ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Cookie 1</a></li>
+      <li><a href="#">Cookie 2 </a></li>
+      <li><a href="#">Cookie 3</a></li>
+    </ul>
+  </div>
 </nav>
 </header>
