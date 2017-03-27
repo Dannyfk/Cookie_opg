@@ -16,10 +16,10 @@ include("includes/header.inc.php");
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-md-3" id="red"></div>
-      <div class="col-md-3" id="blue"></div>
-      <div class="col-md-3" id="green"></div>
-      <div class="col-md-3" id="yellow"></div>
+    <div class="col-md-3" id="red" onclick="savecolor(id)"></div>
+      <div class="col-md-3" id="blue" onclick="savecolor(id)"></div>
+      <div class="col-md-3" id="green" onclick="savecolor(id)"></div>
+      <div class="col-md-3" id="yellow" onclick="savecolor(id)"></div>
   </div>
 </div>
 <?php
