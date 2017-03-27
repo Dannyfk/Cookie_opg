@@ -1,6 +1,7 @@
 <footer>
 	<p>
-		Dette er vores footer.
+		Dette er vores footer.<br>
+		Måske skal vi tilføje noget mere interessant.
 	</p>
 	
 	
