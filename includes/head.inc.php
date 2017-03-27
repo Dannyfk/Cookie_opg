@@ -7,6 +7,7 @@
 <title><?php echo $title;?></title>
 <meta  name="description="  content="<?php echo $description;?>"/>
 
+    <link href="css/bootstrap.css" rel="stylesheet">
 <!-- Our own stylesheet -->
 <link href="css/styles.css" rel="stylesheet">
 

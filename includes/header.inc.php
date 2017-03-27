@@ -1,8 +1,6 @@
-
-
+<body>
 
 <header>
-<video class="bv-video"></video>
 <nav class="navbar">
 <a href="index.php"><img src="img/logo.png" alt="jaja" class="logo"> </a>
 
