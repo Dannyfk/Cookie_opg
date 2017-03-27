@@ -1,16 +1,16 @@
 <body>
 
-<header>
-<nav class="navbar">
-<a href="index.php"><img src="img/logo.png" alt="jaja" class="logo"> </a>
-
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
     <ul class="nav navbar-nav">
-      
-      <li><a href="index.php">Home </a></li>
-      <li><a href="#">Hotdogs </a></li>
-      <li><a href="#">Sodavand</a></li>
-      <li><a href="#">Kontakt</a></li>
-      <li><a href="#">Om os</a></li>
-     </ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
 </nav>
 </header>
