@@ -10,4 +10,4 @@ var cookieValue=$.cookie("nav");
 {
     $('#' + cookieValue).removeClass('active');
     $('#' + cookieValue).parent().addClass('active');
-}
+}   
