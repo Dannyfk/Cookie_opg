@@ -22,6 +22,14 @@ include("includes/header.inc.php");
       <div class="col-md-3" id="yellow" onclick="savecolor(id)"></div>
   </div>
 </div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+
+<script src="js/functions.js"></script>
 <?php
 include("includes/footer.inc.php");
 ?>
