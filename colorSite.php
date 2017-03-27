@@ -16,10 +16,10 @@ include("includes/header.inc.php");
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-md-3" id="red" onclick="savecolor(id)"></div>
-      <div class="col-md-3" id="blue" onclick="savecolor(id)"></div>
-      <div class="col-md-3" id="green" onclick="savecolor(id)"></div>
-      <div class="col-md-3" id="yellow" onclick="savecolor(id)"></div>
+    <div class="col-md-3" id="red" onclick="createCookie('color',id,7)"></div>
+      <div class="col-md-3" id="blue" onclick="createCookie('color',id,7)"></div>
+      <div class="col-md-3" id="green" onclick="createCookie('color',id,7)"></div>
+      <div class="col-md-3" id="yellow" onclick="createCookie('color',id,7)"></div>
   </div>
 </div>
 
@@ -30,6 +30,12 @@ include("includes/header.inc.php");
 <script src="js/bootstrap.js"></script>
 
 <script src="js/functions.js"></script>
+
+
+
+
+
+
 <?php
 include("includes/footer.inc.php");
 ?>
