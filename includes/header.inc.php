@@ -2,7 +2,7 @@
 
 <header>
 <nav class="navbar">
-<a href="index.php"><img src="img/logo.png" alt="jaja" class="logo"> </a>
+
 
     <ul class="nav navbar-nav">
       
