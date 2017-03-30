@@ -64,7 +64,7 @@ include("includes/header.inc.php");
     $(document).ready(function(){
   // we call the function
    var x = readCookie("color");
-        $("body").css("background-color", "#"+x);
+        $("body").css("background-color", x);
 });
   
 </script>

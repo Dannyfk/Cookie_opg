@@ -14,9 +14,18 @@ include("includes/header.inc.php");
   </div>
   <hr>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3" id="red" onclick="createCookie('color',id,7)"></div>
+      <div class="col-md-3" id="blue" onclick="createCookie('color',id,7)"></div>
+      <div class="col-md-3" id="green" onclick="createCookie('color',id,7)"></div>
+      <div class="col-md-3" id="yellow" onclick="createCookie('color',id,7)"></div>
+  </div>
+</div>
+<!--
 
 <button onclick="something()">vælg favorit farve</button>
-
+-->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.3.min.js"></script>
 
@@ -24,10 +33,10 @@ include("includes/header.inc.php");
 <script src="js/bootstrap.js"></script>
 
 <script src="js/functions.js"></script>
-
+<!--
 <script src="js/jscolor.js"></script>
 
-Color: <input class="jscolor" id="jscolor" value="ab2567">
+<input class="jscolor" id="jscolor" value="ab2567">
 
 
 
@@ -36,12 +45,13 @@ Color: <input class="jscolor" id="jscolor" value="ab2567">
 
     function something(){
         var yy = $("#jscolor").attr( "value" );
-        createCookie('color',yy,7)
+        console.log(yy+" h");
+        createCookie('color',yy,7);
     }
 
 </script>
 
-
+-->
 
 
 <?php
